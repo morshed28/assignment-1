@@ -81,67 +81,48 @@ p{
 }
 
 /* why web development styles */
-
-.why-web-container{
-    margin: 74px 152px 88px 148px;
-    border: 2px solid black;
+.second-part-content{
+    margin: 75px 150px 50px;
+    padding: 80px 95px;
+    background-color: lightgray;
     border-radius: 16px;
-    width: 1140px;
-    height: 1395px
 }
 
-.why-web-content{
-    margin: 0 97px 80px 97px;
-    width: 946px;
-    height: 1235px;
+.second-part-header{
+    margin: 0 45px 50px;
 }
 
-.head-content{
-
-    width: 852px;
-    height: 115px;
-    margin: 0 47px 48px;
-    border: 2px solid red;
-}
-
-.card-one{
+.second-part-first{
     display: flex;
-    width: 946px;
-    height: 336px;
-    margin: 10px 95px 10px 0;
-    justify-content: space-evenly;
-    border: 2px solid blue;
-    padding: 48px;
+    padding: 45px;
+    gap: 95px;
+    margin-bottom: 45px;
+    border-radius: 16px;
+    background-color: white;
 }
 
-h4{
-    text-align: center;
-    font-size: 32px;
+.second-part-describe h1{
+    font-size: 24px;
     font-weight: 900;
-    color: #0D1321; 
-    margin-bottom: 26px;
-}
-.first-card-content{
+    color: #0D1321;
     text-align: left;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.second-part-describe p{
     font-size: 16px;
     font-weight: 400;
     color: #0D1321;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
-.why-web-card-content{
-    width: 477px;
-    height: 220px;
-}
-
-h5{
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 32px;
-}
-
-.card-one-image{
-    width: 274px;
-    height: 240px;
+.second-part-describe button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px  20px;
+    color: #0D1321;
 }
 
 /* My Inspiration Section Styles */
