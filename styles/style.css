@@ -13,18 +13,15 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-
 .nav-title{
     font-weight: 900;
     font-size: 28px;
     margin-left: 150px;
     margin-top: 50px;
 }
-
 nav ul li {
     list-style: none;
 }
-
 nav li a button {
     width: 228px;
     height: 58px;
@@ -57,11 +54,9 @@ nav li a button {
     
     
 }
-
 .hero{
    margin: 0 375px 32px 375px;
 }
-
 h1{
     text-align: center;
     font-size: 32px;
@@ -75,7 +70,6 @@ p{
     font-weight: 400;
     color: #0D1321;
 }
-
 .hero-contact{
     color: white;
     background-color: #0D1321;
@@ -150,13 +144,84 @@ h5{
     height: 240px;
 }
 
-/* Support section styles */
+/* My Current Target Styles */
+.card-header{
+    margin: 0 97px 48px;
+}
 
+.card-header h1{
+    font-size: 32px;
+    font-weight: 900;
+    color: #0D1321;
+    text-align: center;
+}
+
+.card-header p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-content{
+    display: flex;
+    margin: 0 150px 50px;
+}
+
+.card-content h4{
+    font-size: 24px;
+    font-weight: 900;
+    color: #0D1321;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.card-content a{
+    font-size: 16px;
+    font-weight: 800;
+    color: #0D1321;
+    text-align: left;
+}
+
+.first-card{
+    background-color: rgba(255, 76, 30, 0.20);
+    border-radius: 16px;
+    padding: 40px;
+    
+}
+
+.second-card{
+    background-color: rgba(0, 76, 232, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    margin: 0 24px 0;
+    
+}
+
+.third-card{
+    background-color: rgba(255, 223, 0, 0.20);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+/* Support section styles */
 .support-container{
     background-image: url(../assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(0, 0, 0, 0.50);
+    background-blend-mode: overlay;
     max-width: 1240px;
     min-height: 314px;
     margin: 0 auto;
@@ -164,6 +229,7 @@ h5{
 
     
 }
+
 .support-content{
     max-width: 1045px;
     max-height: 185px;
@@ -199,6 +265,7 @@ h5{
     font-size: 16px;
     font-weight: 400;
     border: none;
+    padding-left: 20px;
 }
 
 .submit-button{
@@ -212,11 +279,16 @@ h5{
 }
 
 /* footer section styles */
-
+footer{
+    background-color: azure;
+    padding: 10px;
+    border-radius: 16px;
+    margin-top: 50px;
+}   
 .footer-first{
     display: flex;
     justify-content: space-between;
-    margin: 32px 150px;
+    margin: 25px 150px 5px;
     font-size: 20px;
     font-weight: 700;
 }
