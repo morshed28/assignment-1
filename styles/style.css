@@ -144,6 +144,23 @@ h5{
     height: 240px;
 }
 
+/* My Inspiration Section Styles */
+
+.inspiration-container{
+    margin: 90px 150px 50px;
+}
+
+.video-content{
+    display: block;
+    padding: 32px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+}
+
+iframe{
+    border-radius: 16px;
+}
+
 /* My Current Target Styles */
 .card-header{
     margin: 0 97px 48px;
